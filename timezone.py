@@ -27,8 +27,7 @@ def calculate_future_time(target_time, target_timezone, target_datetime):
 if __name__ == "__main__":
     while True:
         # Get user input for the current city, target city, and target time
-        # current_city = input("Enter your current city: ")
-        current_city = "Москва"
+        current_city = input("Enter your current city: ")
         target_city = input("Enter your target city: ")
         target_time = input("Enter your tarhet time (HH:MM): ")
 
